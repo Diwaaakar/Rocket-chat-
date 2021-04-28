@@ -1,7 +1,11 @@
 # Reference 
 # https://atlantic.net/vps-hosting/how-to-deploy-rocket-chat-with-nginx-on-ubuntu-18-04/
 # AMI 
-![image](https://user-images.githubusercontent.com/82823452/116424720-6de98980-a84a-11eb-8d7f-94441b4b4591.png)
+![image](https://user-images.githubusercontent.com/82823452/116425260-d5073e00-a84a-11eb-9029-dcf49db8c898.png)
+# Snapshot 
+![image](https://user-images.githubusercontent.com/82823452/116425388-ee0fef00-a84a-11eb-8a2a-7cabcad6404a.png)
+
+# Steps for running the deployement 
 
 # Rocket-chat-
 rocket chat system 
