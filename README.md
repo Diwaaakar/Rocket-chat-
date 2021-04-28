@@ -26,6 +26,8 @@ Create a new hosted zone by clicking on "Create Hosted Zone":
 Enter your domain name and select "Public Hosted Zone" as type, then click on "Create"
 Select your newly created zone and click on "Create Record Set"
 Domain name - guptacottage.com
+# for getting an SSH 
+ssh -i "rocketchat.pem" ubuntu@ec2-52-41-91-26.us-west-2.compute.amazonaws.com
 
 # Steps for running the deployement 
 # Go to secure shell 
