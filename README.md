@@ -32,7 +32,7 @@ ssh -i "rocketchat.pem" ubuntu@ec2-52-41-91-26.us-west-2.compute.amazonaws.com
  sudo apt update
  sudo apt install certbot
 # Obtain certificate from Let's Encrypt:
- sudo certbot certonly --standalone --email diwakargupta5@email.com -d guptacottage.com
+ sudo certbot certonly --standalone --email diwakargupta5@email.com -d www.guptacottage.com
 
 # Steps for running the deployement 
 # Go to secure shell 
