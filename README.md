@@ -6,6 +6,9 @@
 ![image](https://user-images.githubusercontent.com/82823452/116425388-ee0fef00-a84a-11eb-8a2a-7cabcad6404a.png)
 
 # Steps for running the deployement 
+# Go to secure shell 
+![image](https://user-images.githubusercontent.com/82823452/116426912-34198280-a84c-11eb-89c6-b8f088943526.png)
+
 
 # Rocket-chat-
 rocket chat system 
