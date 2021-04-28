@@ -151,7 +151,7 @@ systemctl restart nginx
 # qus 3 How to remove the deployment and cleanup all resources created for it
 for removing the deployement , we can simply terminate the instance and disassociate the elastic ip and then release it. 
 
-# For converting AMI to docker image 
+# For converting AMI to docker image, In secure shell type( command prompt, putty)
 docker login
 docker images
 docker push diwaakar2205/rocket-chat:tagname
