@@ -1,5 +1,10 @@
-# Reference 
-# https://atlantic.net/vps-hosting/how-to-deploy-rocket-chat-with-nginx-on-ubuntu-18-04/
+# Rocekt chat 
+http://52.41.91.26:3000/home
+http://54.149.219.182:3000/channel/general
+
+
+
+
 # AMI 
 ![image](https://user-images.githubusercontent.com/82823452/116425260-d5073e00-a84a-11eb-9029-dcf49db8c898.png)
 # Snapshot 
@@ -9,6 +14,21 @@
 # Go to secure shell 
 ![image](https://user-images.githubusercontent.com/82823452/116426912-34198280-a84c-11eb-89c6-b8f088943526.png)
 
+# step 0
+# Launch EC2 instance 
+search for "Ubuntu Server 18.04 LTS" with "64-bit (x86)" architecture and click on "Select"then review and launch 
+# Allocate an Elastic IP 
+Click on "Allocate New Address"
+Select "Amazon's pool of IPv4 addresses" and click on "Allocate"
+Click on the newly created IP address and select "Associate Elastic IP address"
+Select your instance and click "Associate"
+In the details below, copy the "Public DNS". You will need it in the DNS step.
+(Public DNS:ec2-52-41-91-26.us-west-2.compute.amazonaws.com)
+# Configure DNS w/ AWS Route 53
+Create a new hosted zone by clicking on "Create Hosted Zone":
+Enter your domain name and select "Public Hosted Zone" as type, then click on "Create"
+Select your newly created zone and click on "Create Record Set"
+Domain name - guptacottage.com
 
 # Rocket-chat-
 rocket chat system 
@@ -128,3 +148,10 @@ systemctl restart nginx
 # Rocket chat is ready to use after login and putting some personal informatio 
 # qus 3 How to remove the deployment and cleanup all resources created for it
 for removing the deployement , we can simply terminate the instance and disassociate the elastic ip and then release it. 
+
+
+
+# Reference 
+# https://docs.rocket.chat/installation/paas-deployments/aws
+# https://atlantic.net/vps-hosting/how-to-deploy-rocket-chat-with-nginx-on-ubuntu-18-04/
+
