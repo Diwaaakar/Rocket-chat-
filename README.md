@@ -154,9 +154,9 @@ for removing the deployement , we can simply terminate the instance and disassoc
 # For converting AMI to docker image 
 docker login
 docker images
-docker push rocket.chat
+docker push diwaakar2205/rocket-chat:tagname
 # for pulling it out 
-docker pull rocket.chat
+docker pull diwaakar2205/rocket-chat:tagname
 
 
 
