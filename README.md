@@ -125,3 +125,6 @@ Finally, restart the Nginx service to apply the configuration changes:
 
 systemctl restart nginx
 # Step 8 – Access Rocket.Chat Web Interface
+# Rocket chat is ready to use after login and putting some personal informatio 
+# qus 3 How to remove the deployment and cleanup all resources created for it
+for removing the deployement , we can simply terminate the instance and disassociate the elastic ip and then release it. 
