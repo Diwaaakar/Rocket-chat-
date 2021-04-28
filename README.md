@@ -1,4 +1,8 @@
-https://atlantic.net/vps-hosting/how-to-deploy-rocket-chat-with-nginx-on-ubuntu-18-04/
+# Reference 
+# https://atlantic.net/vps-hosting/how-to-deploy-rocket-chat-with-nginx-on-ubuntu-18-04/
+# AMI 
+![image](https://user-images.githubusercontent.com/82823452/116424720-6de98980-a84a-11eb-8d7f-94441b4b4591.png)
+
 # Rocket-chat-
 rocket chat system 
 # Step 1 – Create Atlantic.Net Cloud Server
