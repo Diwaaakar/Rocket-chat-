@@ -8,7 +8,8 @@ http://54.149.219.182:3000/channel/general
 # AMI 
 ![image](https://user-images.githubusercontent.com/82823452/116425260-d5073e00-a84a-11eb-9029-dcf49db8c898.png)
 # Snapshot 
-![image](https://user-images.githubusercontent.com/82823452/116425388-ee0fef00-a84a-11eb-8a2a-7cabcad6404a.png)
+
+![image](https://user-images.githubusercontent.com/82823452/116579706-54644280-a91b-11eb-8d23-7ab7572e5ca9.png)
 
 
 # step 0
